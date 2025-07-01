@@ -37,7 +37,7 @@ if ($currentPolicy -ne 'Restricted') {
 }
 
 # Define log file path
-$logFile = "C:\Windows\Temp\SCCM_Client_Actions_Log.txt"
+$logFile = "C:\SCCM_Client_Actions_Log.txt"
 
 # Write-Log function: Logs messages with timestamp and colored output
 Function Write-Log {
