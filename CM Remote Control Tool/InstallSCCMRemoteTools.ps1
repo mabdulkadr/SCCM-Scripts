@@ -27,7 +27,7 @@
 #>
 
 # Define the Primary Site Server Name for SCCM
-$SCCMSiteServer = "SCCM-PS.QassimU.local"  # Replace with your SCCM site server name
+$SCCMSiteServer = "SCCM.abc.local"  # Replace with your SCCM site server name
 
 # Define the installation directory for SCCM Remote Tools
 $Installdir = "$env:ProgramFiles\CMremoteControl"
