@@ -47,8 +47,8 @@ The modules cover installing/removing the SCCM remote-control viewer, repairing 
 SCCM-Scripts/
 │
 ├── CM Remote Control Tool/
-│   ├── InstallSCCMRemoteTools.ps1
-│   ├── UninstallSCCMRemoteTools.ps1
+│   ├── Install-SCCMRemoteTools.ps1
+│   ├── Uninstall-SCCMRemoteTools.ps1
 │   ├── CmRcViewer.exe
 │   ├── RdpCoreSccm.dll
 │   ├── 00000409\CmRcViewerRes.dll
@@ -69,8 +69,8 @@ SCCM-Scripts/
 
 | Module | Purpose |
 |--------|---------|
-| `CM Remote Control Tool\InstallSCCMRemoteTools.ps1` | Installs the SCCM remote-control viewer components |
-| `CM Remote Control Tool\UninstallSCCMRemoteTools.ps1` | Removes the remote-control viewer components |
+| `CM Remote Control Tool\Install-SCCMRemoteTools.ps1` | Installs the SCCM remote-control viewer components |
+| `CM Remote Control Tool\Uninstall-SCCMRemoteTools.ps1` | Removes the remote-control viewer components |
 | `Fix-SCCMClientCert\Fix-SCCMClientCert.ps1` | Repairs a broken client certificate |
 | `Repair-SCCMClient\Repair-SCCMClient.ps1` | Repairs a broken Configuration Manager client |
 | `Trigger-SCCMClientActions\Trigger-SCCMClientActions.ps1` | Triggers standard client evaluation cycles |
@@ -125,6 +125,6 @@ This skill and every script it generates are provided as-is with no warranty of 
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/mabdulkadrx)
 
-Built with [**PowerShell Enterprise Admin**](https://github.com/mabdulkadr/powershell-enterprise-admin-skill)
+Built with [**PowerShell Enterprise Admin**](https://github.com/mabdulkadr/powershell-enterprise-admin)
 
 </div>

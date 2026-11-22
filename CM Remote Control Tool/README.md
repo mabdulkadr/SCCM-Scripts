@@ -17,7 +17,7 @@ These scripts install and uninstall the SCCM Remote Tools client in standalone m
 
 ## Scripts
 
-### InstallSCCMRemoteTools.ps1
+### Install-SCCMRemoteTools.ps1
 
 #### Description
 This script installs the SCCM Remote Tools client by:
@@ -32,12 +32,12 @@ This script installs the SCCM Remote Tools client by:
 
 #### Example Usage
 ```powershell
-.\InstallSCCMRemoteTools.ps1
+.\Install-SCCMRemoteTools.ps1
 ```
 
 ---
 
-### UninstallSCCMRemoteTools.ps1
+### Uninstall-SCCMRemoteTools.ps1
 
 #### Description
 This script uninstalls the SCCM Remote Tools client by:
@@ -51,7 +51,7 @@ This script uninstalls the SCCM Remote Tools client by:
 
 #### Example Usage
 ```powershell
-.\UninstallSCCMRemoteTools.ps1
+.\Uninstall-SCCMRemoteTools.ps1
 ```
 
 ---
@@ -60,7 +60,7 @@ This script uninstalls the SCCM Remote Tools client by:
 
 ### Prerequisites
 - Run the scripts with **Administrator** privileges.
-- Ensure all required files (e.g., `RdpCoreSccm.dll`, `CmRcViewer.exe`, `CmRcViewerRes.dll`) are located in the same directory as `InstallSCCMRemoteTools.ps1`.
+- Ensure all required files (e.g., `RdpCoreSccm.dll`, `CmRcViewer.exe`, `CmRcViewerRes.dll`) are located in the same directory as `Install-SCCMRemoteTools.ps1`.
 
 ### Running the Scripts
 1. Open PowerShell as Administrator.
@@ -68,11 +68,11 @@ This script uninstalls the SCCM Remote Tools client by:
 3. Execute the script:
    - To install the SCCM Remote Tools client:  
      ```powershell
-     .\InstallSCCMRemoteTools.ps1
+     .\Install-SCCMRemoteTools.ps1
      ```
    - To uninstall the SCCM Remote Tools client:  
      ```powershell
-     .\UninstallSCCMRemoteTools.ps1
+     .\Uninstall-SCCMRemoteTools.ps1
      ```
 
 ---

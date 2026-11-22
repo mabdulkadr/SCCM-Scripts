@@ -16,7 +16,7 @@
     Administrator
 
 .EXAMPLE
-    .\InstallSCCMRemoteTools.ps1
+    .\Install-SCCMRemoteTools.ps1
 
     This command runs the script to install and configure SCCM Remote Tools using the provided configuration.
 

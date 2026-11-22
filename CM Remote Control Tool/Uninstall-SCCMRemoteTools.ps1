@@ -16,7 +16,7 @@
     Date    : 2024-11-04
 
 .EXAMPLE
-    .\UninstallSCCMRemoteTools.ps1
+    .\Uninstall-SCCMRemoteTools.ps1
 
     This command runs the script to completely uninstall the SCCM Remote Tools client from the system.
 
