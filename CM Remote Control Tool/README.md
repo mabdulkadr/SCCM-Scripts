@@ -5,13 +5,13 @@
 ![PowerShell](https://img.shields.io/badge/powershell-5.1%2B-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 
-These PowerShell scripts facilitate the deployment and removal of the Configuration Manager (SCCM) Remote Tools client, ensuring seamless installation and complete uninstallation processes.
+These PowerShell scripts install and remove the Configuration Manager (SCCM) Remote Tools client.
 
 ---
 
 ## Overview
 
-These scripts are designed to streamline the installation and uninstallation of the SCCM Remote Tools client in standalone mode. They ensure proper setup and cleanup of files, registry entries, and shortcuts to maintain system integrity.
+These scripts install and uninstall the SCCM Remote Tools client in standalone mode. They set up and clean up files, registry entries, and shortcuts.
 
 ---
 
@@ -28,7 +28,7 @@ This script installs the SCCM Remote Tools client by:
 
 #### Features
 - Automatically detects the operating system architecture (32-bit or 64-bit) and updates the registry accordingly.
-- Ensures idempotency by creating directories and registry entries only if they do not exist.
+- Uses idempotent checks, creating directories and registry entries only if they do not exist.
 
 #### Example Usage
 ```powershell
@@ -47,7 +47,7 @@ This script uninstalls the SCCM Remote Tools client by:
 
 #### Features
 - Detects operating system architecture to target the appropriate registry paths.
-- Ensures cleanup is complete, leaving no residual files or configurations.
+- Leaves no residual files or configuration.
 
 #### Example Usage
 ```powershell
@@ -79,9 +79,9 @@ This script uninstalls the SCCM Remote Tools client by:
 
 ## Requirements
 
-- **Operating System**: Windows (32-bit or 64-bit)
-- **PowerShell**: Version 5.1 or later
-- **Permissions**: Administrator privileges are required to run the scripts.
+- Operating System: Windows (32-bit or 64-bit)
+- PowerShell: Version 5.1 or later
+- Permissions: Administrator privileges are required to run the scripts.
 
 ---
 

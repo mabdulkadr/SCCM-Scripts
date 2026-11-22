@@ -7,7 +7,7 @@
 
 ## Overview
 
-This script is designed to remediate SCCM (Microsoft Endpoint Configuration Manager) client communication issues caused by corrupt or missing client certificates.
+This script remediates SCCM (Microsoft Endpoint Configuration Manager) client communication issues caused by corrupt or missing client certificates.
 
 It safely removes the cryptographic keys from the `MachineKeys` folder after taking ownership, allowing the SCCM client to regenerate a new self-signed certificate and resume communication with the Management Point (MP).
 
@@ -45,9 +45,9 @@ Run this script **as Administrator** in PowerShell:
 
 #### Outputs
 
-- **Backup Folder**: `C:\Backup_MachineKeys_<timestamp>`
-- **Status Logs**: Displayed in PowerShell during execution
-- **Certificate Status**: Can be checked using:
+- Backup Folder: `C:\Backup_MachineKeys_<timestamp>`
+- Status Logs: displayed in PowerShell during execution
+- Certificate Status: can be checked using:
 
 ```powershell
 Get-WmiObject -Namespace "ROOT\ccm" -Class SMS_Client | Select ClientCertificate
